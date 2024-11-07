@@ -12,7 +12,7 @@ public class RestController1 {
 	@GetMapping("/welcome")
 	public String getMsg() {
 		
-		String responsebody ="welcome to first REST app";
+		String responsebody ="welcome to the first REST app";
 		
 		return responsebody;
 	}
